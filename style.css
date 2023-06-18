@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+.container-items-1{
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    gap: 20px;
+    
+    
+}
+
+.item-1{
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.item-1:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item-1 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    opacity: .8;
+}
+
+.item-1 figure{
+    overflow: hidden;
+}
+
+.item-1:hover img{
+    transform: scale(1.2);
+}
+
+.moron{
+    top: 0;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Geologica', sans-serif;
+    background-color: rgba(116, 116, 116, 0.693);
+    font-size: 40px;
+    width: 140px;
+    height: 60px;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.seccion{
+    background-color: #757575be;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    z-index: 2;
+    border-radius: 10px 5px 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+    text-align: center;
+}
+.seccion-2{
+    background-color: #757575be;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    z-index: 2;
+    border-radius: 10px 5px 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+    text-align: center;
+}
+
+
+.container-items-2{
+    display: grid;
+    grid-template-columns: repeat(1, 30%);
+    gap: 20px;
+    
+    
+}
+
+.item-2{
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.item-2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item-2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    opacity: .8;
+}
+
+.item-2 figure{
+    overflow: hidden;
+}
+
+.item-2:hover img{
+    transform: scale(1.2);
+}
+
+
+.seccion-1{
+    background-color: #757575be;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    z-index: 2;
+    border-radius: 10px 5px 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+
+
+.nose{
+    top: 0;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Geologica', sans-serif;
+    background-color: #b7b7b7db;
+    font-size: 35px;
+    width: 1590px;
+    height: 60px;
+    left: 140px;
+    box-shadow: 20px 0px 20px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.nose li a{
+    font-family: 'Geologica', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 23px;
+    display: block;
+    font-size: 20px;
+}
+.nose li a img{
+    width: 30px;
+}
+
+.nose li{
+    display: inline-block;
+    text-align: center;
+}
+
+.nose li a:hover{
+    background-color: rgba(105, 141, 162, 0.432);
+    height: 60px;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Geologica', sans-serif;
+    color: #ffffff;
+    background-color: #dddddd;
+}
+
+.wasa{
+    max-width: 0%;
+    width: 100px;
+    padding: 0;
+}
+.wasa img{
+    top:0;
+    width: 70px;
+    height: 60px;
+    position: absolute;
+}
+.wasa img:hover{
+    background-color: #dddddd;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #595858;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+
+header{
+    display: grid;
+    padding: 50px;
+    gap: 20px;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #757575;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(93, 92, 92, 0.2);
+    border-radius: 10px;
+    
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+
+
+/* Main */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    
+}
+
+.item{
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    opacity: .8;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    font-family: 'Geologica', sans-serif;
+    border: none;
+    background: none;
+    background-color: #ffffff64;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+li a{
+    color: #fff;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1060px){
+
+
+    .container-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+    }
+   
+    .item{
+        width: 100%;
+    }
+
+    .container-items-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+    }
+   
+    .item-1{
+        width: 100%;
+    }
+    .container-items-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+        
+    }
+   
+    .item-2{
+        width: 100%;
+    }
+
+    .seccion{
+        width: 90%;
+        height: 90px;
+    }
+    .seccion-1{
+        
+        width: 90%;
+        margin-top: 100px;
+        
+    }
+    .seccion-2{
+        margin-top: 550px;
+        width: 90%;
+    }
+
+
+    .nose{
+    width: 71%;
+    height: 60px;
+    }
+    
+    
+}
